@@ -118,3 +118,47 @@ h1 {
     font-size: 1rem;
   }
 }
+
+/* Facilities Section Styles */
+.facilities-section {
+  background: linear-gradient(180deg, #2c3930 0%, #4F5F54 100%);
+  padding: 4rem 0;
+}
+
+.facility-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 1rem;
+  backdrop-filter: blur(5px);
+  transition: transform 0.3s ease;
+}
+
+.facility-card:hover {
+  transform: translateX(10px);
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.facility-icon {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-right: 1rem;
+}
+
+.facility-text {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 500;
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .facility-card {
+    margin-bottom: 1rem;
+  }
+  
+  .facility-text {
+    font-size: 0.9rem;
+  }
+}

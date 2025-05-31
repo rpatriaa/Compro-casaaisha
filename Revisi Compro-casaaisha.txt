@@ -1,0 +1,8 @@
+
+1. Gambar ui ganti jadi tampak depan rumah (keterangan jadi tampak depan rumah)
+2. Gambar Margo City ganti tampak depan perumahan(keterangan jadi tampak depan perumahan)
+3. Tol cisalak ganti jadi video (keterangan video animasi cluster)
+4. Dekat dengan fasilitas umum ganti jadi video animasi cluster
+5. Klik denah nanti ditambahin foto tambahan
+6. Seputar pertanyaan di Casa Aisha ganti jadi bonus yang didapatkan Ketika membeli di Casa aisha.
+7. Icon logo WhatsApp, Ig, dan TikTok di bagian footer, Cariin icon berwarna

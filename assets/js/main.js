@@ -1,7 +1,28 @@
+// Fungsi untuk mengatur link aktif
+function setActiveLink(clickedLink) {
+  // Hapus kelas active dari semua link
+  document.querySelectorAll(".navbar-nav .nav-link").forEach((link) => {
+    link.classList.remove("active");
+    link.classList.remove("fw-medium");
+  });
+
+  // Tambahkan kelas active ke link yang diklik
+  clickedLink.classList.add("active");
+  clickedLink.classList.add("fw-medium");
+}
+
 // Script untuk memindahkan tombol "Hubungi Kami" saat scroll
 document.addEventListener("DOMContentLoaded", function () {
-  const navContactBtn = document.querySelector("#navContactBtn");
   const floatingContactBtn = document.querySelector("#floatingContactBtn");
+
+  // Set link beranda sebagai active saat halaman dimuat
+  const currentPath = window.location.hash || "#beranda";
+  const activeLink = document.querySelector(
+    `.navbar-nav .nav-link[href="${currentPath}"]`
+  );
+  if (activeLink) {
+    setActiveLink(activeLink);
+  }
 
   // Fungsi untuk mengecek posisi scroll
   function checkScroll() {

@@ -30,12 +30,6 @@ Contoh yang mungkin digunakan dalam proyek ini:
 
 ```text
 Compro-casaaisha/
-├─ public/                # aset publik: gambar unit, favicon, dll
-├─ src/                   # kode utama (jika menggunakan framework)
-│   ├─ pages/             # halaman (home, about, contact, dll)
-│   ├─ components/        # komponen UI (header, hero, gallery, contact form)
-│   ├─ assets/             # file gambar, ikon, stylesheet
-│   └─ styles/             # file CSS atau tailwind config
+├─ assets/                # aset: gambar unit, favicon, dll
 ├─ index.html             # entry point (jika proyek tanpa framework)
-├─ package.json           # metadata proyek & script build/install
 └─ README.md              # dokumentasi proyek
